@@ -14,3 +14,17 @@ function nowServing(person) {
     return 'Currently serving ' + current + '.';
   }
 }
+
+function currentLine(line) {
+  var result = [];
+
+  if (line.length === 0) {
+    return 'The line is currently empty.';
+  } else {
+    for (var i = 0; i < line.length; i++) {
+      result += (i + 1) + ". " + line[x] + ', ';
+    }
+  result = result.slice(0, result.length - 2)
+  return 'The line is currently: ' + result;
+  }
+}
