@@ -22,7 +22,7 @@ function currentLine(line) {
     return 'The line is currently empty.';
   } else {
     for (var i = 0; i < line.length; i++) {
-      result += (i + 1) + ". " + line[x] + ', ';
+      result += (i + 1) + ". " + line[i] + ', ';
     }
   result = result.slice(0, result.length - 2)
   return 'The line is currently: ' + result;
