@@ -11,6 +11,6 @@ function nowServing(person) {
   } else {
     current = person[0];
     person.splice(0, 1);
-    return 'Currently serving ' + current + '.';
+    return 'Currently serving ' + current + '!';
   }
 }
